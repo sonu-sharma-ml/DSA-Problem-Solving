@@ -28,10 +28,7 @@ class linkedlist:
 
 # Driver code
 linked_list = linkedlist()
-linked_list.append(10)
-linked_list.append(20)
-linked_list.append(30)
-linked_list.append(40)
 
-linked_list.display()
-linked_list.display()
+
+linked_list.append(10)
+linked_list.display()  # Output: 10 -> None
