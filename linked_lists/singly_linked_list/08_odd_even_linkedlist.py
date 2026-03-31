@@ -1,3 +1,10 @@
+"""
+Problem Statement: Odd Even Linked List Logic
+
+Description:
+Group all odd-indexed nodes together followed by the even-indexed nodes using an array concatenation approach.
+"""
+
 class Node:
     def __init__(self, value):  # ✅ Added __init__
         self.value = value

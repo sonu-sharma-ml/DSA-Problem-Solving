@@ -1,3 +1,10 @@
+"""
+Problem Statement: Create a Singly Linked List dynamically
+
+Description:
+Implement a LinkedList class with a dynamic method to automatically append multiple nodes to the list.
+"""
+
 class Node:
     def __init__(self , data):
         self.data = data

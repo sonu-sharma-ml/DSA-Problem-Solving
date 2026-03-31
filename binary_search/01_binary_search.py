@@ -1,3 +1,10 @@
+"""
+Problem Statement: Binary Search
+
+Description:
+Given a sorted array of integers and a target value, return the index of the target if it exists, otherwise return -1. Time complexity must be O(log n).
+"""
+
 # You are given a sorted array nums and a target value.
 # Return the index of the target if it exists; otherwise return -1.
 # The algorithm must run in O(log n) time.

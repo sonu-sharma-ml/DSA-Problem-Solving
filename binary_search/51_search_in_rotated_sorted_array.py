@@ -1,3 +1,10 @@
+"""
+Problem Statement: Search in Rotated Sorted Array
+
+Description:
+Given a sorted array that has been rotated around an unknown pivot, find the index of a target value using a modified binary search.
+"""
+
 # nums = [1,2,3,4,5,6,7,8,9]
 # target = 6
 # k = 3

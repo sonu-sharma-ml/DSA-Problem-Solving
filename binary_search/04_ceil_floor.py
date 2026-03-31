@@ -1,3 +1,10 @@
+"""
+Problem Statement: Ceil and Floor in a Sorted Array
+
+Description:
+Given a sorted array and a target value, find the largest number smaller than the target (floor) and the smallest number greater than the target (ceil).
+"""
+
 
 # You are given a sorted array of integers num and a target value target.
 

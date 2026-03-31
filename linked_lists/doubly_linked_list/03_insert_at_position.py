@@ -1,3 +1,10 @@
+"""
+Problem Statement: Insert Node at a Specific Position in a Doubly Linked List
+
+Description:
+Traverse a doubly linked list and systematically insert a new node at a given specific index / position.
+"""
+
 class Node:
     def __init__(self, val):
         self.val = val
