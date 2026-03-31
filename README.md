@@ -1,96 +1,103 @@
-# DSA with Python
+<div align="center">
+  
+# 📘 DSA Problem Solving (Python)
 
-A comprehensive collection of Data Structures and Algorithms implementations in Python.
+[![Repository](https://img.shields.io/badge/GitHub-sonu--sharma--ml%2FDSA--Problem--Solving-blue?logo=github&style=for-the-badge)](https://github.com/sonu-sharma-ml/DSA-Problem-Solving)
+[![Language](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](#)
 
-## 📁 Project Structure
+A meticulously structured Data Structures & Algorithms portfolio, featuring isolated problem environments. Every solution contains its exact **Question Map**, **Python Implementation**, and **Algorithmic Explanation** defining Space and Time complexities!
 
-```
+</div>
+
+---
+
+## 📊 Programming Dashboard
+
+| Core Statistics | Value |
+| :--- | :---: |
+| **Total Problems Solved** | `27` |
+| 🟢 **Easy Problems** | `14` |
+| 🟡 **Medium Problems** | `13` |
+| 🔴 **Hard Problems** | `0` |
+
+---
+
+## 📁 Repository Architecture
+
+Our unique repository architecture breaks every algorithm down securely into its contextual environment:
+```text
 DSA-with-python/
-├── 📂 arrays/                        # Pure Array algorithms
-│   └── 01_find_minimum.py             # Find minimum element in an array
-├── 📂 binary_search/                 # Binary Search variations and applications
-│   ├── 01_binary_search.py            # Standard Binary Search
-│   ├── 03_search_insert_position.py   # Search Insert Position
-│   ├── 04_ceil_floor.py               # Ceil and Floor operations via Binary Search
-│   ├── 06_find_first_and_last_position.py # Find First and Last Position of Element
-│   └── 51_search_in_rotated_sorted_array.py # Search in a Rotated Sorted Array
-└── 📂 linked_lists/                  # Linked List data structures and algorithms
-    ├── 📂 singly_linked_list/
-    │   ├── 01_introduction.py         # Introduction to Singly Linked List
-    │   ├── 02_create_list.py          # Creating a list
-    │   ├── 02_traversal.py            # Traversing lists
-    │   ├── 03_insert.py               # Insertion edge cases
-    │   ├── 03_singly_linkedlist.py    # Standard insertion
-    │   ├── 04_insert.py               # Additional insert logic
-    │   ├── 05_middle_linkedlist.py    # Find middle of the linked list
-    │   ├── 06_reverse_linkedlist.py   # Reverse a linked list
-    │   ├── 07_check_loop.py           # Detect cycles/loops
-    │   ├── 08_odd_even_linkedlist.py  # Odd-Even Linked List
-    │   ├── 09_remove_elements.py      # Remove target elements
-    │   └── singly_linked_list.py      # Main Node / LinkedList template class
-    └── 📂 doubly_linked_list/
-        ├── 01_insert_at_end.py        # Append to Doubly Linked List
-        ├── 02_insert_at_1st.py        # Prepend to Doubly Linked List
-        ├── 03_insert_at_position.py   # Insert at an index
-        └── 04_reverse_linked_list.py  # Reverse a doubly linked list
+└── topic_domain/
+    └── 01_algorithm_name/
+        ├── question.md      # Problem statement & context
+        ├── solution.py      # Python executable logic
+        └── explanation.md   # Time/Space Complexity & Approach
 ```
+
+---
 
 ## 📚 Topics Covered
 
 ### 🔢 Arrays
-| File | Description |
-|------|-------------|
-| `01_find_minimum.py` | Implementation of finding the minimum element in an array |
+- **01_find_minimum** `[Easy]`
 
 ### 🔍 Binary Search
-| File | Description |
-|------|-------------|
-| `01_binary_search.py` | Binary Search implementation |
-| `03_search_insert_position.py` | Search Insert Position |
-| `04_ceil_floor.py` | Ceil and Floor operations |
-| `06_find_first_and_last_position.py` | Find First and Last Position of Element |
-| `51_search_in_rotated_sorted_array.py` | Search in Rotated Sorted Array |
+- **01_binary_search** `[Easy]`
+- **03_search_insert_position** `[Easy]`
+- **04_ceil_floor** `[Medium]`
+- **06_find_first_and_last_position** `[Medium]`
+- **51_search_in_rotated_sorted_array** `[Medium]`
 
 ### 🔗 Linked Lists
-| File | Description |
-|------|-------------|
-| **Singly Linked List** | |
-| `01_introduction.py` | Linked List introduction |
-| `02_create_list.py` | Creating a linked list |
-| `02_traversal.py` | Traversing a linked list |
-| `05_middle_linkedlist.py` | Find middle of linked list |
-| `06_reverse_linkedlist.py` | Reverse linked list |
-| `07_check_loop.py` | Check for loops/cycles using fast and slow pointers |
-| `08_odd_even_linkedlist.py` | Rearrange list to alternate odd/even indices |
-| `09_remove_elements.py` | Remove elements matching a target value |
-| `singly_linked_list.py` | Standard Singly Linked List class |
-| **Doubly Linked List** | |
-| `01_insert_at_end.py` | Insert node at tail |
-| `02_insert_at_1st.py` | Insert node at head |
-| `03_insert_at_position.py` | Insert node at an arbitrary position |
-| `04_reverse_linked_list.py`| Reverse doubly linked list |
+#### Singly Linked List Layer
+- **01_introduction** `[Easy]`
+- **02_create_list** `[Easy]`
+- **02_traversal** `[Easy]`
+- **03_insert** `[Easy]`
+- **03_singly_linkedlist** `[Easy]`
+- **04_insert** `[Medium]`
+- **05_2nd_method (Middle Element - Slow/Fast)** `[Easy]`
+- **05_middle_linkedlist (Counting)** `[Easy]`
+- **06_2nd_method (Reverse - Recursive/Iterative)** `[Medium]`
+- **06_reverse_linkedlist (Stack Backup)** `[Easy]`
+- **07_2nd_sol (Detect Cycle - Floyd's)** `[Medium]`
+- **07_check_loop (Detect Cycle - Map)** `[Easy]`
+- **08_2nd_solution (Odd Even Patterning)** `[Medium]`
+- **08_odd_even_linkedlist** `[Medium]`
+- **09_2nd_solution (Nth Traversal Removal)** `[Medium]`
+- **09_remove_elements** `[Easy]`
+- **singly_linked_list (Boilerplate Blueprint)** `[Easy]`
+
+#### Doubly Linked List Layer
+- **01_insert_at_end** `[Easy]`
+- **02_insert_at_1st** `[Easy]`
+- **03_insert_at_position** `[Medium]`
+- **04_reverse_linked_list** `[Medium]`
+
+---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
+1. **Clone the repository locally:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sonu-sharma-ml/DSA-Problem-Solving.git
    ```
 
-2. **Navigate to the project directory**
+2. **Navigate directly to isolated problems:**
    ```bash
-   cd DSA-with-python
+   cd DSA-Problem-Solving/binary_search/01_binary_search
    ```
 
-3. **Run any Python file**
+3. **Execute the solution natively:**
    ```bash
-   python binary_search/01_binary_search.py
+   python solution.py
    ```
 
-## ⚙️ Requirements
+---
 
-- Python 3.x
+## ⚙️ Environment Profile
+- Requires natively **Python 3.x+**
 
 ## 📝 License
-
-MIT
+Distributable gracefully beneath **MIT Licensing**.
