@@ -16,7 +16,7 @@ A meticulously structured Data Structures & Algorithms portfolio, featuring isol
 
 | Core Statistics | Value |
 | :--- | :---: |
-| **Total Problems Solved** | `27` |
+| **Total Problems Solved** | `28` |
 | 🟢 **Easy Problems** | `14` |
 | 🟡 **Medium Problems** | `13` |
 | 🔴 **Hard Problems** | `0` |
@@ -74,6 +74,7 @@ DSA-with-python/
 - **02_insert_at_1st** `[Easy]`
 - **03_insert_at_position** `[Medium]`
 - **04_reverse_linked_list** `[Medium]`
+- **05_delete_linkedlist** `[Medium]`
 
 ---
 
