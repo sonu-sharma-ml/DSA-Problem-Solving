@@ -19,23 +19,29 @@ class DoublyLinkedList:
             self.head.prev = new_node
             self.head = new_node
 
-
-    def sum(self):
+    # -------------------------------
+    # FIND SUM OF PAIRS ⭐
+    # -------------------------------
+    def find_pairs_with_sum(self, target_sum):
+        """
+        Find all pairs of nodes whose sum equals target_sum.
+        Returns the count of such pairs.
+        """
         temp1 = self.head
-        sum = 9
         count = 0
+
+        # Traverse through each node
         while temp1 is not None:
             temp2 = temp1.next
+            # Check pairs with subsequent nodes
             while temp2 is not None:
-                if sum == temp1.val + temp2.val:
-                    print(f"{temp1.val} + {temp2.val} = {sum}")
+                if temp1.val + temp2.val == target_sum:
+                    print(f"{temp1.val} + {temp2.val} = {target_sum}")
                     count += 1
                 temp2 = temp2.next
             temp1 = temp1.next
+
         return count
-
-
-
 
     # Display list
     def display(self):
@@ -51,18 +57,19 @@ class DoublyLinkedList:
 # -------------------------------
 dll = DoublyLinkedList()
 
-dll.insert_at_head(2)
-dll.insert_at_head(3)
-dll.insert_at_head(4)
-dll.insert_at_head(5)
-dll.insert_at_head(6)
-dll.insert_at_head(7)
-dll.insert_at_head(8)
-dll.insert_at_head(9)
 dll.insert_at_head(10)
+dll.insert_at_head(9)
+dll.insert_at_head(8)
+dll.insert_at_head(7)
+dll.insert_at_head(6)
+dll.insert_at_head(5)
+dll.insert_at_head(4)
+dll.insert_at_head(3)
+dll.insert_at_head(2)
 
 print("Original List:")
 dll.display()
 
-print("Sum of all pairs of nodes:")
-print(dll.sum())
+print("\nFinding pairs with sum = 9:")
+result = dll.find_pairs_with_sum(9)
+print(f"Total pairs found: {result}")
